@@ -13,16 +13,6 @@
     </div>
     <div class="col-sm-3">
         <div class="panel panel-success">
-            <div class="panel-body" style="background-color: #2ECC71">
-                <img src="<?php echo base_url('asset/img/log.svg') ?>" alt="ikon verifikasi" width="100%">
-            </div>
-            <div class="panel-heading text-center">
-                <a href="<?php echo base_url('admin/panduan') ?>" title="" class="btn btn-default">Panduan</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="panel panel-success">
             <div class="panel-body" style="background-color: #1ABC9C">
                 <img src="<?php echo base_url('asset/img/umum.svg') ?>" alt="ikon setting umum" width="100%">
             </div>
@@ -44,6 +34,16 @@
             </div>
             <div class="panel-heading text-center">
                 <a href="<?php echo base_url('pemilih') ?>" title="" class="btn btn-default">Data Pemilih</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel panel-default">
+            <div class="panel-body" style="background-color: #00ffee">
+                <img src="<?php echo base_url('asset/img/kelas.svg') ?>" alt="ikon voter" width="100%">
+            </div>
+            <div class="panel-heading text-center">
+                <a href="<?php echo base_url('pemilih') ?>" title="" class="btn btn-default">Data Kelas</a>
             </div>
         </div>
     </div>
@@ -108,6 +108,16 @@
             </div>
             <div class="panel-heading text-center">
                 <a href="<?php echo base_url('admin/statistik') ?>" title="" class="btn btn-default">Statistik</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel panel-success">
+            <div class="panel-body" style="background-color: #2ECC71">
+                <img src="<?php echo base_url('asset/img/log.svg') ?>" alt="ikon verifikasi" width="100%">
+            </div>
+            <div class="panel-heading text-center">
+                <a href="<?php echo base_url('admin/panduan') ?>" title="" class="btn btn-default">Panduan</a>
             </div>
         </div>
     </div>
